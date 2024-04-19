@@ -1,7 +1,7 @@
 import os
 import csv
 
-election_data_csv = os.path.join('Resources', 'election_data.csv')
+election_data_csv = os.path.join('PyPoll', 'Resources', 'election_data.csv')
 
 
 #Variables 
@@ -35,7 +35,7 @@ Doane_percent = Doane/total_votes*100
 #The winner of the election based on popular vote
 
 
-#print analysis to terminal
+#print analysis to terminal. Please note I was using the same portion of code from PyBank but wasn't able to change the details to fit PyPoll. The idea was to summarize the election results, print to the terminal and create a text file in the analysis folder using the same method as I did in PyBank. 
 #this portion of my code was shared by Chelsean Cullens/Melissa Judy in cooperation with a tutor that Chelsea worked with. 
     Analysis_summary = "Financial Analysis"
     Analysis_summary = "--------------------------------------------------------\n"
